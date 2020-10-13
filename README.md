@@ -53,5 +53,5 @@ My `launch.sh` is configured to launch both bars, one on each of my monitors, so
 edit the script for what fits your need.
 
 Make sure `launch.sh` is executable by running: `chmod +x launch.sh`.
-Add `launch.sh` as a startup script so polybar launches everytime you log in.
+Add `launch.sh` as a startup script so polybar launches every time you log in.
 
