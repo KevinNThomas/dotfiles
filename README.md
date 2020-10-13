@@ -55,3 +55,26 @@ edit the script for what fits your need.
 Make sure `launch.sh` is executable by running: `chmod +x launch.sh`.
 Add `launch.sh` as a startup script so polybar launches everytime you log in.
 
+## firefox
+
+Theme is based on
+[minimal-function-fox](https://github.com/mut-ex/minimal-functional-fox).
+See the README of that repo for how to get it setup. I only ended up using the
+userChrome.css and userContent.css files for my setup.
+
+Install the [nightTab](https://addons.mozilla.org/en-US/firefox/addon/nighttab/)
+extension to get the new tab page shown in my screenshot.
+
+## vscode
+
+### extensions
+
+Install the Dracula extension. I also use the
+[Customize UI](https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui)
+extension to remove some things you can't remove normally.
+
+### settings.json
+
+Contains the relevant parts of my `settings.json` file.
+
+
