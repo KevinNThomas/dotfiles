@@ -8,7 +8,7 @@ I use the Dracula alacritty theme from here: https://draculatheme.com/alacritty
 
 ## bspwm
 
-I use the rounded corner patch (includwed in the folder).
+I use the rounded corner patch (included in the folder).
 
 ## firefox
 
