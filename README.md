@@ -89,10 +89,12 @@ For bspwm and rofi keybindings.
 
 ### extensions
 
-Install the Dracula extension. I also use the
+Install the Dracula extension.
 
 ### settings.json
 
 Contains the relevant parts of my `settings.json` file.
 
+## wallpaper
 
+https://draculatheme.com/wallpaper, edited for ultrawide resolution by me.
