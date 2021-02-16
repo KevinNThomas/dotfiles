@@ -2,6 +2,40 @@
 
 ![Desktop Screenshot](desktop.png)
 
+## alacritty
+
+I use the Dracula alacritty theme from here: https://draculatheme.com/alacritty
+
+## bspwm
+
+I use the rounded corner patch (includwed in the folder).
+
+## firefox
+
+Theme is based on
+[minimal-function-fox](https://github.com/mut-ex/minimal-functional-fox).
+See the README of that repo for how to get it setup. I only ended up using the
+userChrome.css and userContent.css files for my setup.
+
+Install the [nightTab](https://addons.mozilla.org/en-US/firefox/addon/nighttab/)
+extension to get the new tab page shown in my screenshot.
+
+## mopidy
+
+I have mopidy and mpd installed, and use the extensions mopidy-mpd, mopidy-subidy, and mopidy-scrobbler
+
+## ncmpcpp
+
+I have configured the layout to my liking, and also use vim keybindings. The `bindings` file goes in my `~/.ncmpcpp` directory.
+
+## pcmanfm
+
+I have changed the settings to my liking and added the "hide menubar" patch.
+
+## picom
+
+I believe I use pretty standard settings for this.
+
 ## polybar
 
 My polybar files are based on the "polybar-4" theme from this repo:
@@ -20,13 +54,6 @@ font. These can be found in the `fonts` directory, and should be added to your
 system fonts to be useable. I copy mine into `/usr/share/fonts`, then run
 `fc-cache -f -v`.
 
-### scripts
-
-`kde-virtual-desktops`, `kde-next-desktop`, and `kde-previous-desktop` are the
-scripts I use for virtual desktop interaction in the polybar. Instructions on
-how to use these scripts can be found in the repo I made for them here:
-https://gitlab.com/KevinNThomas/kde-virtual-desktops-polybar
-
 ### colors
 
 Colors can be configured in `colors.ini`, and can be accessed using the form:
@@ -34,13 +61,11 @@ Colors can be configured in `colors.ini`, and can be accessed using the form:
 
 ### config
 
-I use two configuration files: `config-primary.ini` and `config-secondary.ini`
-because I use a dual monitor setup. See comments inside the files for more
-in-depth descriptions of the various sections.
+My config has two bars, my main bar and my sytem tray bar.
 
 ### modules
 
-Contains configs for modules built into polybar
+Contains configs for modules built into polybar.
 
 ### user_modules
 
@@ -49,29 +74,22 @@ custom modules.
 
 ### launching
 
-My `launch.sh` is configured to launch both bars, one on each of my monitors, so
-edit the script for what fits your need.
-
 Make sure `launch.sh` is executable by running: `chmod +x launch.sh`.
 Add `launch.sh` as a startup script so polybar launches every time you log in.
 
-## firefox
+## rofi
 
-Theme is based on
-[minimal-function-fox](https://github.com/mut-ex/minimal-functional-fox).
-See the README of that repo for how to get it setup. I only ended up using the
-userChrome.css and userContent.css files for my setup.
+I use the Dracula rofi theme from here: https://draculatheme.com/rofi. I also use the rofi-power-menu script for a power menu launched from polybar.
 
-Install the [nightTab](https://addons.mozilla.org/en-US/firefox/addon/nighttab/)
-extension to get the new tab page shown in my screenshot.
+## sxhkd
+
+For bspwm and rofi keybindings.
 
 ## vscode
 
 ### extensions
 
 Install the Dracula extension. I also use the
-[Customize UI](https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui)
-extension to remove some things you can't remove normally.
 
 ### settings.json
 
